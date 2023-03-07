@@ -29,6 +29,7 @@ Create a new directory or move to your project directory .open terminal and ente
   git init -b main
 ~~~
 - this would initialize git implemention on currunt direcory
+- `-b main`  would make main as currunt working branch 
 
 to track all your file you should enter below code  
 
