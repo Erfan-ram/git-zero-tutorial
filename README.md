@@ -15,4 +15,8 @@ Due to have a repository in github first sign up or if you have one already just
 
 ![App Screenshot](/Pics/1.png)  
 
-- than you should choose a name for your project . pay attention your project name would be your project directory or repository in your github profile. 
+- than you should choose a name for your project . pay attention your project name would be your project directory or repository in your github profile.
+<br/><br/>
+> **Caution** : According to recent github updated rule main branch you are working on was changed from **Master** to **Main** . as far as your default local system branch is *Master* , we may encounter some errors while pushing and pulling . therefore it is better to make `Main` as default branch on both git and github :
+> <br/><br/>
+> ![App Screenshot](/Pics/2.png) 
