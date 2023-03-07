@@ -14,3 +14,5 @@ The main use of Git and GitHub is to `store code securely`, making them popular 
 Due to have a repository in github first sign up or if you have one already just sign in . than choose `+` symbol on the right side and choose `New repository`
 
 ![App Screenshot](/Pics/1.png)  
+
+- than you should choose a name for your project . pay attention your project name would be your project directory or repository in your github profile. 
