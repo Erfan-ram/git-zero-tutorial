@@ -9,3 +9,8 @@ Git is designed to be `simple yet powerful`, allowing developers to `record chan
 The main use of Git and GitHub is to `store code securely`, making them popular among software developers. They enable users to collaborate on different projects by proposing changes, exchanging ideas and voting on requests from other users.
 <br/><br/>
 **let's start uploading our project to github to share...**
+<br/><br/>
+## First step
+Due to have a repository in github first sign up or if you have one already just sign in . than choose `+` symbol on the right side and choose `New repository`
+
+![App Screenshot](/Pics/1.png)  
