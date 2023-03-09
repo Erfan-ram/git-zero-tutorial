@@ -75,3 +75,12 @@ git push -uf origin main
 > with Above you set your *origin* to track changes from *main* branch. than you would not need to specify which branch shoud push each time you enter `git push`
 - `-u` refers to `--set-upstream`
 - `-f` refers to skip errors and do thing automatically
+
+You would see your files are being shared on your github repository . with every changes you just need these 3 commands :
+~~~bash 
+git add .
+git commit -m '< changes in codebase>' 
+git push
+~~~ 
+
+Than your all done.
