@@ -20,6 +20,7 @@ Due to have a repository in github first sign up or if you have one already just
 > **Caution** : According to recent github updated rule main branch you are working on was changed from **Master** to **Main** . as far as your default local system branch is *Master* , we may encounter some errors while pushing and pulling . therefore it is better to make `Main` as default branch on both git and github :
 > <br/><br/>
 > ![App Screenshot](/Pics/2.png)
+- (Dont create readme file unless you might rebase after adding your remote branch)
 <br/><br/>
 ## Second step : Uploading
 
@@ -31,13 +32,13 @@ Create a new directory or move to your project directory .open terminal and ente
 - this would initialize git implemention on currunt direcory
 - `-b main`  would make **main** as currunt working branch 
 
-to track all your file you should enter below code  
+To track all your file you should enter below code  
 
 ~~~bash  
   git add .
 ~~~
 
-**(optional)** or you could just upload some of your files than you would enter 
+**(optional)** Or you could just upload some of your files than you would enter 
 
 ~~~bash  
 git add <file-name>
@@ -65,3 +66,9 @@ git remote -v
 > origin  https://github.com/Erfan-ram/git-zero-tutorial.git (fetch)
 > 
 > origin  https://github.com/Erfan-ram/git-zero-tutorial.git (push)
+
+<br/><br/>
+To **finalize** your goal and **push** your changes and files to github yo should enter :
+~~~bash  
+git remote -v
+~~~ 
