@@ -55,3 +55,13 @@ Now it's time to add your github repository to remote branch
 git remote add origin https://github.com/<repository name>
 ~~~ 
 
+Aafter you added remote repository enter below command to confirm implementions
+
+~~~bash  
+git remote -v
+~~~ 
+- than you would see a text like this:
+ 
+> origin  https://github.com/Erfan-ram/git-zero-tutorial.git (fetch)
+> 
+> origin  https://github.com/Erfan-ram/git-zero-tutorial.git (push)
