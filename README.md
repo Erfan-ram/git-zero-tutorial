@@ -70,5 +70,6 @@ git remote -v
 <br/><br/>
 To **finalize** your goal and **push** your changes and files to github yo should enter :
 ~~~bash  
-git remote -v
+git push -uf origin main
 ~~~ 
+> with Above you set your *origin* to track changes from *main* branch. than you would not need to specify which branch shoud push each time you enter `git push`
