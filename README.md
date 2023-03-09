@@ -73,3 +73,5 @@ To **finalize** your goal and **push** your changes and files to github yo shoul
 git push -uf origin main
 ~~~ 
 > with Above you set your *origin* to track changes from *main* branch. than you would not need to specify which branch shoud push each time you enter `git push`
+- `-u` refers to `--set-upstream`
+- `-f` refers to skip errors and do thing automatically
