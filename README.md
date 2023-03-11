@@ -80,7 +80,7 @@ You would see your files are being shared on your github repository . with every
 ~~~bash 
 git add .                               # add files to stage
 git commit -m '< changes in codebase>'  # commit your changes
-git push                                # send changed concepts on github
+git push                                # send changed concepts to github
 ~~~ 
 
 Than your all done.
