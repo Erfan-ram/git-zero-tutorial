@@ -29,7 +29,7 @@ Create a new directory or move to your project directory .open terminal and ente
 ~~~bash  
   git init -b main
 ~~~
-- this would initialize git implemention on currunt direcory
+- this would initialize git implementation on currunt direcory
 - `-b main`  would make **main** as currunt working branch 
 
 To track all your file you should enter below code  
@@ -56,7 +56,7 @@ Now it's time to add your github repository to remote branch
 git remote add origin https://github.com/<repository name>
 ~~~ 
 
-Aafter you added remote repository enter below command to confirm implementions
+Aafter you added remote repository enter below command to confirm implementations
 
 ~~~bash  
 git remote -v
@@ -78,9 +78,9 @@ git push -uf origin main
 
 You would see your files are being shared on your github repository . with every changes you just need these 3 commands :
 ~~~bash 
-git add .
-git commit -m '< changes in codebase>' 
-git push
+git add .                               # add files to stage
+git commit -m '< changes in codebase>'  # commit your changes
+git push                                # send changed concepts on github
 ~~~ 
 
 Than your all done.
