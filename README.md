@@ -10,6 +10,16 @@ The main use of Git and GitHub is to `store code securely`, making them popular 
 <br/><br/>
 **let's start uploading our project to github to share...**
 <br/><br/>
+## initial step
+> to make git ready for the first use it is neccesary to do these :
+> -﻿ git config --global user.name "Erfan Ramezani"
+> - git config --global user.email "Erfanramezany245@gmail.com"
+> - git config --global core.editor "code --wait"
+> - git config --global core.autocrlf input (linux only )
+
+
+
+<br/><br/>
 ## First step
 Due to have a repository in github first sign up or if you have one already just sign in . than choose `+` symbol on the right side and choose `New repository`
 
