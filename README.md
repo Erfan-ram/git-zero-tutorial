@@ -11,12 +11,26 @@ The main use of Git and GitHub is to `store code securely`, making them popular 
 **let's start uploading our project to github to share...**
 <br/><br/>
 ## initial step
-> to make git ready for the first use it is neccesary to do these :
+to make git ready for the first use it is neccesary to do these
+
 > -﻿ git config --global user.name "Erfan Ramezani"
 > - git config --global user.email "Erfanramezany245@gmail.com"
 > - git config --global core.editor "code --wait"
 > - git config --global core.autocrlf input (linux only )
 
+## ssh implementation
+> ssh-keygen -t rsa -b 4096 -C "email@gmail.com"
+Press Enter to save the key in the default location.
+Step 2: Enter the passphrase
+> eval "$(ssh-agent -s)"
+> ssh-add ~/.ssh/id_rsa
+> cat ~/.ssh/id_rsa.pub
+enter the generated code in github
+
+
+
+
+[thanks Godlin Hilda J for this](https://medium.com/featurepreneur/setting-up-ssh-key-with-github-for-ubuntu-cd8f2fabf25b)  
 
 
 <br/><br/>
